@@ -1,0 +1,16 @@
+In the terminal, run the following command to create a new virtual environment named "myenv"
+SELECT COMMAND PROMPT IT WILL NOT RUN IN POWERSHELL
+-->python -m venv myenv
+
+Once the environment is created, activate it by running
+-->.\myenv\Scripts\activate
+
+With the environment activated you can install packages using pip
+-->pip install package_name
+
+When you're done working in the environment deactivate it by running
+-->deactivate
+
+After creating the environment, you may need to select it as the interpreter in VSCode. You can do this by clicking on the interpreter version displayed in the bottom-left corner of the VSCode window and selecting the desired environment.
+
+ALWAYS REMEMBER TO ACTIVATE BEFORE START YOUR WORK AND DEACTIVATE AFTER
